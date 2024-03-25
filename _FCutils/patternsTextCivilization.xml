@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_ORIGINALSTELLARIS_NAME" Language="zh_Hans_CN">
+			<Text>原始群星文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ORIGINALSTELLARIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原始群星文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ORIGINALSTELLARIS_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>原始群星文明的</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ORIGINALSTELLARIS_NAME" Language="zh_Hans_CN">
+			<Text>第四天灾</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_ORIGINALSTELLARIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得“核聚变”科技后，解锁特殊项目：巨像计划，没有“监护矩阵”特性的领袖解锁特殊项目：化身天灾，没有“噬杀蜂群”特性的领袖解锁特殊项目：一言堂。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

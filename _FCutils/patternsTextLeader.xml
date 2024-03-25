@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_LEADER_STELLARIS_GREY_NAME" Language="zh_Hans_CN">
+			<Text>小灰</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_STELLARIS_GREY_NAME" Language="zh_Hans_CN">
+			<Text>纳米机器人科技洞见</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_STELLARIS_GREY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市+10%[ICON_Science]科技。学院可以从相邻的区域额外获得+1相邻加成，并提供等同于相邻加成的[ICON_Production]产能。科技步入进入信息时代后，自动获得“纳米技术”科技和“机器人技术”科技，城市的科技产出增益提升至+50%[ICON_Science]。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
