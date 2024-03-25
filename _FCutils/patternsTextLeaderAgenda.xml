@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_AGENDA_LEADER_STELLARIS_GREY_NAME" Language="zh_Hans_CN">
+			<Text>卓越科技</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LEADER_STELLARIS_GREY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>追求获得更高的[ICON_Science]科技值,喜欢科技发达的文明，讨厌科技欠发达的文明。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_QUOTE" Language="zh_Hans_CN">
+			<Text>这里是行政官小灰的办公室。请问您有什么吩咐吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>你们好，亲爱的人类同胞。大家过的怎么样？我很好，这里的一切都在按部就班地进行着。就和……中央情报处……那个掌控一切的主计算机想要的一样。没错。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>噢！呃……单位65-D……R5-9……2报告。对，65-D-R5-9-2向您汇报。正以峰值效率运转，主控单元先生。内部诊断没有发现重大问题。我是说，完全没有发现问题！什么问题都没有。一切都……呃……噢，算了吧，我骗谁呢。对，我明显不是个人类。你想怎样？</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>好吧，好吧。我老实交代。没必要再装下去了。请原谅我把话说得太直，但我已经很久没有与我自己以外的人交谈过了。很久以前，曾经有一个……可以说是一个由纳米机器组成的文明。你知道什么是纳米机器吗？很好。这些纳米机器被其造物主称为“灰色风暴”，尽管其内部的自我命名代码比它要复杂无数倍。总之，纳米机器与其造物主之间的关系逐渐恶化，并爆发了一场大战！当尘埃落定之后，只有纳米机器们活了下来。但在造物主们被消灭之前，他们设法关闭了其星团唯一的出口传送门，把纳米机器困在了里面。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>在那之后，纳米机器们发现自己有的是时间。它们徒劳地花了数千年，试图离开那个星团，但在那之后它们开始试验各种形状与形态。在一段时间里，它们甚至重建了其造物主的文明消逝时的模样，细至每个独立的居民。我便是最新的实验成果。除了覆盖在某些星球上的静止的纳米机器以外，整个灰色风暴，或者随便你怎么称呼我们，都聚集在了我身上。我的意识代表着我们整个文明。至于我的外表……是因为我觉得，你可能更容易接受跟自己长得差不多的人。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>我得承认，在最近这几个世纪里，我已经对田园生活感到有些无聊了。既然L-星团已经再次开放了，或许我该接触一些新的事物。你有什么建议吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>加入你们？加入你们！？你要我自己投入某个初次见面的陌生外星人的怀抱？我真的……我简直……等等，让我把话说清楚……你真的以为我会向你宣誓效忠，尽管我对你那诡异的帝国或是其肮脏的历史一无所知？你没开玩笑吧？你居然会出这种提议，我真的不知道你在想……呃……其实……转念一想……好吧，何不呢？让我入伙吧。不，不，我是说真的！我感觉我们会很合得来，而且这将会是一段激动人心的大冒险。在此我宣布在接下来的2000年里效忠于你。不，还是5000年吧！</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STELLARIS_GREY_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>你们目前所知的任何语言都无法完整准确地描述这些组成我意识的纳米机器的全名。我们的造物主称我们为“纳-迪-沙”，在你们的语言里大致可以译为“灰之风暴”。我建议简单一点，就叫我“小灰”。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

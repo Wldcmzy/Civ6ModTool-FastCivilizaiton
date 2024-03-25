@@ -14,4 +14,4 @@
 
 对简单的SQL语句的列缩进进行排版，脚本有较大局限性。
 
-需要把待修改的语句存入`auto_farmat_INSERT_sql_strings.sql`，修改结果保存于`auto_farmat_INSERT_sql_output.sql`
+需要把待修改的语句存入`auto_format_INSERT_sql_strings.sql`，修改结果保存于`auto_format_INSERT_sql_output.sql`
