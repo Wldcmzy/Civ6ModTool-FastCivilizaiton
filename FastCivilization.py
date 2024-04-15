@@ -7,16 +7,16 @@
 APPLY_DEFAULT_LEADER_DEPLO = False
 
 # Mod作者的名称
-author = 'StarsWhisper'
+author: str = 'StarsWhisper'
 
 # Text文件语言
-ModLanguages = ['zh_Hans_CN', 'zh_Hant_HK', 'en_US']
+ModLanguages: list[str] = ['zh_Hans_CN', 'zh_Hant_HK', 'en_US']
 
 # 文明名称
-CivilizaitonName = 'CIVILIZATION_CELESTE'
+CivilizaitonName: str = 'CIVILIZATION_CELESTE'
 
 # 领袖名称以及首都文本Tag
-LeadersList = [
+LeadersList: list[tuple[str, str]] = [
     ('LEADER_MADELINE', 'LOC_CITY_NAME_MADELINECAP'),
 ]
 
@@ -90,22 +90,30 @@ def writeNewXML_Text(filenameRow: str, text: str, language: str) -> None:
         
         
 def CivilizationDB() -> None:
+    def __Civilization() -> None:
+        sql_civ = SQL_CIVILIZAITON.replace(CUSTOM_CIVILIZATION_NAME, CivilizaitonName)
+        writeNewSQL(CivilizaitonName, sql_civ)
+
     def __CivilizationCtiiesTag(Civilization: str, CitiesName: list[str]) -> None:
         rows = ''
         for cityName in CitiesName:
-            rows += XML_CITIES_TAG_ROW.format(
-                civType = Civilization,
-                cityName = cityName,
-            )
-        xml = XML_BASE.format(
-            table = 'CityNames',
-            rows = rows,
-        )
+            rows += XML_CITIES_TAG_ROW.format(civType = Civilization,cityName = cityName,)
+        xml = XML_TABLE_BASE.format(table = 'CityNames',rows = rows,)
+        xml = XML_BASE.format(xml = xml)
         writeNewXML(f'{CivilizaitonName}_Cities_TAG', xml)
     
-    sql_civ = SQL_CIVILIZAITON.replace(CUSTOM_CIVILIZATION_NAME, CivilizaitonName)
-    writeNewSQL(CivilizaitonName, sql_civ)
+    def __CivilizationColors(Civilization: str, LeadersList: list[tuple[str, str]]) -> None:
+        Colors = XML_TABLE_BASE.format(table = 'Colors', rows = XML_CUSTOM_COLOR_ROW__CONST * 3)
+        pcr = ''
+        for leaderName, _ in LeadersList:
+            pcr += XML_PLAYERCOLORS_PATTERN_ROW.format(leader = leaderName)
+        PlayerColors = XML_TABLE_BASE.format(table = 'PlayerColors', rows = pcr)
+        xml = XML_BASE.format(xml = Colors + PlayerColors)
+        writeNewXML(f'{CivilizaitonName}_Colors', xml)
+
+    __Civilization()
     __CivilizationCtiiesTag(CivilizaitonName, citiesNameList)
+    __CivilizationColors(CivilizaitonName, LeadersList)
 
 def LeadersDB() -> None:
     sql_leaderConfigs = ''
